@@ -1,0 +1,116 @@
+.navbar-container {
+    position: relative;
+    padding-top: 50px; }
+  
+    .background-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 50px;
+    
+  }
+  
+  .navbar > *:first-child { 
+    margin-right: auto; 
+  }
+  
+  .navbar-item {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .sign-up-button {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    text-decoration: none;
+    margin-left: 10px; 
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .fluid-text {
+    font-size: 8rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    white-space: normal; 
+  }
+  
+  @media (min-width: 992px) {
+    .fluid-text {
+      white-space: nowrap; 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fluid-text {
+      font-size: 5rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .fluid-text {
+      font-size: 3rem;
+    }
+  }
+  .lead {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+color: #fffdfd;    
+  }
+  .button-container {
+    margin-top: 3rem;
+   
+  }
+  
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    background-color: #f2f2f2;
+  }
+  
+  .btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #080808;
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    color: #fff;
+  }
+  .lead {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .lead p {
+    max-width: 500px;
+  }
